@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 
 const Comments = (props) => {
     const comment=props.comment

@@ -2,7 +2,7 @@ import React from 'react';
 import { useHistory } from 'react-router';
 
 const Post = (props) => {
-    const {body,title,id} = props.post;
+    const {title,id} = props.post;
     const historyId=useHistory()
 
     const showDetails=id=>{

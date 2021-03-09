@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <h2>This is heading from Home: {posts.length}</h2>
             {
-                posts.map(post => <Post post={post}></Post>)
+                posts.map(post => <Post post={post} key={post.id}></Post>)
             } 
             
         </div >
