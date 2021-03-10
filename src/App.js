@@ -8,8 +8,6 @@ import {
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
 import PostDetails from "./Components/PostDetails/PostDetails";
-import Post from "./Components/Posts/Post";
-
 
 function App() {
   return (
